@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+  </head>
+  <style>
+    ul{
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+    }
+    li{
+      display: inline;
+      margin: auto;
+      padding: 8px;
+      font-family: Arial, sans-serif;
+      font-size: small;
+    }
+    li a{
+      color: gray;
+      text-decoration: none;
+    }
+    #container{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 600px;
+    }
+    #searchbox{
+      position: relative;
+      display: flex;
+      flex-direction: column;  
+    }
+    #searchbox input{
+      border-width: thin;
+      border-radius: 5px;
+      min-width: 500px;
+    }
+    #buttons{
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .button{
+      margin: 15px;
+    }
+    #footer-nav{
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: rgb(226, 226, 226);
+    }
+
+  </style>
+  <header>
+    <nav>
+      <ul>
+        <li style = "float: left;"><a href = "https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+        <li style = "float: left;"><a href = "https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>
+        <li style = "float: right;"><a href = "https://images.google.com">Images</a></li>
+        <li style = "float: right;"><a href = "https://mail.google.com/mail/u/0/?tab=wm&ogbl#inbox">Gmail</a></li>
+
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <div id = "container">
+      <div id = "logo">
+        <img src = "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt = "Google Logo">
+      </div>
+      <div id = "searchbox">
+        <form name = "search-query">
+          <input type = "text" placeholder="Google Search" name = "search-query">
+          <br>
+          <div id = "buttons">
+            <button class="button">
+              Google Search
+            </button>
+            <button class = "button">
+              I'm feeling Lucky!
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div id = "footer-nav">
+      <ul>
+        <li style = "float: left;"><a href = "https://ads.google.com">Advertising</a></li>
+        <li style = "float: left;"><a href = "https://smallbusiness.withgoogle.com">Business</a></li>
+        <li style = "float: left;"><a href = "https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+        <li style = "float: right;"><a href = "https://google.com/preferences">Settings</a></li>
+        <li style = "float: right;"><a href = "https://policies.google.com/terms?fg=1">Terms</a></li>
+        <li style = "float: right;"><a href = "https://policies.google.com/privacy?fg=1">Privacy</a></li>
+      </ul>
+    </div>
+  </footer>
+</html>
