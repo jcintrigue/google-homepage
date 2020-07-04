@@ -1,0 +1,1 @@
+For this project, I'm going to deconstruct an existing webpage (Google.com) and re-build it myself.
